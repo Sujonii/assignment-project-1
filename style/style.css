@@ -1,0 +1,379 @@
+*{
+    padding:0;
+    margin:0;
+}
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.banner-description {
+    color: #0D1321;
+    line-height: 26px;
+}
+.banner-description h1{
+color: #0D1321 !important;
+}
+
+.button {
+    background-color: #0D1321;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 21px 21px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header {
+    background-image: url(../style/Hero-bg.png);
+}
+
+.banner {
+    text-align: center !important;
+    padding-top: 26px;
+    padding-bottom: 45px;
+} 
+.banner-content{    
+    margin: auto;
+    width: 750px;
+}
+
+.banner-content h1{    
+    margin:25px 0px;
+}
+
+.banner-content p{    
+  margin-bottom: 25px;
+}
+.why-web-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 50px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 8px;
+}
+.why-web-content{
+    width: 946px;
+    height: 1233px;
+    margin-left: 90px;
+    margin-top: 75px;
+}
+.why-web-text{
+    font-family: "Azeret Mono", monospace;
+    color: rgb(255, 0, 0);
+    font-size: 32px;
+    text-align: center;
+    padding-top: 100px;
+}
+.importance-web{
+    font-family: "Azeret Mono", monospace;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+/* First box */
+
+.first-box{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+.first-left-content{
+    width: 477px;
+    height: 240px;
+}
+.will-do-text{
+    font-family: "Azeret Mono", monospace;
+    color: rgb(52, 52, 52);
+    font-size: 22px;
+}
+.coding-empowers{
+    font-family: "Azeret Mono", monospace;
+    color: rgb(52, 52, 52);
+    font-size: 10px;
+    padding-top: 10px;
+}
+.learn-more-button{
+    width: 114px;
+    height: 29px;
+    border: .2px solid rgb(107, 107, 107);
+    margin-top: 90px;
+}
+.first-right-content{
+    width: 327px;
+    height: 200px;
+    border: 2px solid rgb(246, 255, 0);
+    display: flex;
+    position: right end;
+}
+.pc-img{
+    margin-left: 99px;
+}
+
+/* Second box */
+
+.second-box{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+.pc-second-img{
+    margin-right: 185px;
+}
+.second-right-content{
+    width: 407px;
+    height: 240px;
+}
+
+/* Third box */
+
+.third-box{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+.third-left-content{
+    width: 477px;
+    height: 240px;
+}
+
+/* My Inspiration Style Starts */
+
+.my-inspiration-container{
+    width: 1440px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.inspiration-text{
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(52, 52, 52);
+    font-size: 38px;
+}
+.inspired-by-text{
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(52, 52, 52);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.yt-video{
+    width: 1070px;
+    height: 555px;
+    margin: 0 auto;
+    margin-top: 58px;
+    border-radius: 8px;
+    border: 0;
+}
+.inspiration-video{
+    width: 1070px;
+    height: 555px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/*My Current Target Starts Here */
+
+.current-target-container{
+    width: 1140px;
+    height: 465px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+.skills-container{
+    width: 1140px;
+    height: 305px;
+    margin: 0 auto;
+    margin-top: 55px;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.skills{
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 0;
+}
+.skills-container{
+    display: flex;
+    gap: 54px;
+}
+.skill-first{
+    width: 360px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.skill-second{
+    width: 360px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.skill-third{
+    width: 360px;
+    height: 260px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.skill-title{
+    text-align: left;
+    font-family: "Azeret Mono", monospace;
+    font-weight: bold;
+    padding-top: 20px;
+    color: black;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+}
+.skill-description{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    font-family: "Azeret Mono", monospace;
+}
+.learn-anchor{
+    font-family: "Azeret Mono", monospace;
+    font-weight: bold;
+    padding-top: 90px;
+    color:rgb(37, 37, 37);
+    padding-right: 19px;
+}
+
+/* <!-- Support Section Starts Here --> */
+
+.support-section-container{
+        width: 1140px;
+        height: 313px;
+        margin: 0 auto;
+        border: 0;
+        margin-top: 50px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        background-image: url("../style/handshake.jpg");
+        background-position: center;
+        background-color: rgb(54, 54, 54);
+        background-blend-mode: overlay;
+}
+.support-content{
+    width: 1044px;
+    height: 185px;
+    margin: 0 auto;
+    border: 0;
+    text-align: center;
+}
+.support-content h2{
+    
+    color: white;
+    
+}
+#immediate-text{
+    text-align: center;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 15px;
+}
+.support-box{
+    width: 684px;
+    height: 67px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 15px;
+}
+.namebox{
+    width: 527px;
+    height: 57px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.support-submit{
+    width: 120px;
+    height: 57px;
+    border: 0;
+    border-radius: 5px;
+}
+.idk{
+    font-family: "Azeret Mono", monospace;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 5px;
+}
+
+/* Footer style starts */
+
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 50px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+}
+.footer-content{
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    border: 0;
+    display: flex;
+    gap: 550px;
+}
+.footer-text, h3{
+    font-family: "Azeret Mono", monospace;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 3px;
+}
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
